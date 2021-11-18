@@ -1,0 +1,82 @@
+.mainDiv {
+  margin: 3%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: solid #75abbc 2px;
+  border-radius: 16px;
+}
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #071013 1px solid;
+  align-items: baseline;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.rowDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.singleProdDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 10px;
+  padding: 2em;
+  border: #d9f2f0 1px solid;
+  border-radius: 16px;
+  background-color: #b3c7ee;
+}
+/* .singleProdDiv:hover{
+    
+} */
+.singleCustomerDiv {
+  margin: 10px;
+  padding: 10px;
+  border: #23b5d3 1px solid;
+  border-radius: 16px;
+  background-color: #b3c7ee;
+}
+button {
+  border-radius: 10px;
+  font-size: small;
+  margin: 5px;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #f80166;
+  color: white;
+}
+.colDiv {
+  /* background-color: #A2AEBB; */
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  margin: 9px;
+  /* border: #23B5D3 1px solid; */
+  border-radius: 16px;
+  justify-content: space-between;
+  flex-basis: 50%;
+}
+.outerColDiv {
+  padding: 12px;
+  margin: 9px;
+  border: #23b5d3 1px solid;
+  border-radius: 16px;
+  flex-basis: 60%;
+}
+#rightDiv {
+  flex-basis: 40%;
+}
+/* .innerDiv{
+    
+    
+} */
+tr {
+  border: 1px solid black;
+}
+td {
+}

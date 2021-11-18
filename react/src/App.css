@@ -1,0 +1,55 @@
+body{
+    
+    height: 100%;
+}
+
+.HomePage {  
+ margin: 16px;
+ display: flex;
+ flex-direction: column;
+}
+.LinksMenu{
+    border-bottom: 2px solid #f80166;
+    margin: 4px;
+    display: flex;
+    
+}
+
+.linkDiv{
+    padding: 4px;
+}
+
+.linkDiv:hover {
+    background-color: #ADD8E6;
+}
+/* a .myLink .navLink{
+    color: #f80166 !important;
+} */
+.myLink{
+    text-decoration: none;
+    color: #f80166 ;
+
+}
+tr{
+    border:1px solid black
+}
+ /* .navLink:visited{
+    text-decoration: none;
+    color: #f80166;
+} */
+th,td{
+    border: 1px solid #ddd;
+    /* border-left:  1px solid #ddd; */
+}
+table{
+    border: 2px solid #ddd;
+    width: -webkit-fill-available;
+}
+td>a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+td>span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
